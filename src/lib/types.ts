@@ -1,0 +1,2 @@
+export type Cause = { name: string; likelihood: number; notes: string };
+export type CodeData = { code: string; title: string; meaning: string; system: string; severity: 'green'|'yellow'|'red'; safeToDriveNote: string; causes: Cause[]; mechanicChecklist: string[]; dontReplaceYet: string[]; carSpecific: { make: string; model?: string; yearFrom?: number; yearTo?: number; extraCauses: Cause[] }[]; reviewed: false };

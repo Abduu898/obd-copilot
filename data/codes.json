@@ -1,0 +1,1117 @@
+[
+  {
+    "code": "P0300",
+    "title": "Random or multiple cylinder misfire detected",
+    "meaning": "The engine is misfiring in one or more cylinders. Fuel may not be burning evenly, which can make the engine shake or lose power.",
+    "system": "Ignition and misfire",
+    "severity": "red",
+    "safeToDriveNote": "If the check-engine light is flashing or the engine is shaking, stop driving when safe; continued driving can damage the catalytic converter. Otherwise, arrange prompt diagnosis.",
+    "causes": [
+      {
+        "name": "Worn or fouled spark plugs",
+        "likelihood": 4,
+        "notes": "A common first check, especially if service is overdue."
+      },
+      {
+        "name": "Ignition coil or coil wiring fault",
+        "likelihood": 3,
+        "notes": "May affect one or several cylinders."
+      },
+      {
+        "name": "Fuel delivery problem",
+        "likelihood": 2,
+        "notes": "Pressure or injector issues can cause uneven combustion."
+      },
+      {
+        "name": "Vacuum leak or low compression",
+        "likelihood": 1,
+        "notes": "Consider after basic ignition and fuel checks."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for a flashing warning light and note when the misfire occurs",
+      "Review freeze-frame data and misfire counts by cylinder",
+      "Inspect plugs, coils, wiring, and fuel trims before replacing parts"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before the misfire is fixed",
+      "All ignition coils without cylinder-specific test results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0301",
+    "title": "Cylinder 1 misfire detected",
+    "meaning": "Cylinder 1 is not burning its fuel and air mixture consistently. You may notice a rough idle, vibration, or reduced power.",
+    "system": "Ignition and misfire",
+    "severity": "red",
+    "safeToDriveNote": "If the check-engine light is flashing or the engine runs roughly, stop driving when safe and get prompt help; a misfire can damage emissions components.",
+    "causes": [
+      {
+        "name": "Spark plug worn or fouled on cylinder 1",
+        "likelihood": 4,
+        "notes": "Often checked first."
+      },
+      {
+        "name": "Ignition coil or boot fault on cylinder 1",
+        "likelihood": 3,
+        "notes": "A swap test can help confirm whether the fault follows the coil."
+      },
+      {
+        "name": "Injector or wiring issue",
+        "likelihood": 2,
+        "notes": "Check injector operation and connections."
+      },
+      {
+        "name": "Low compression or air leak",
+        "likelihood": 1,
+        "notes": "Check if ignition and fuel tests do not explain the fault."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check cylinder 1 misfire counts and freeze-frame data",
+      "Inspect or test the cylinder 1 plug, coil, and connections",
+      "If needed, test injector operation and compression"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before correcting the misfire",
+      "Engine parts before confirming compression is low"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0302",
+    "title": "Cylinder 2 misfire detected",
+    "meaning": "Cylinder 2 is not burning its fuel and air mixture consistently. You may notice a rough idle, vibration, or reduced power.",
+    "system": "Ignition and misfire",
+    "severity": "red",
+    "safeToDriveNote": "If the check-engine light is flashing or the engine runs roughly, stop driving when safe and get prompt help; a misfire can damage emissions components.",
+    "causes": [
+      {
+        "name": "Spark plug worn or fouled on cylinder 2",
+        "likelihood": 4,
+        "notes": "Often checked first."
+      },
+      {
+        "name": "Ignition coil or boot fault on cylinder 2",
+        "likelihood": 3,
+        "notes": "A swap test can help confirm whether the fault follows the coil."
+      },
+      {
+        "name": "Injector or wiring issue",
+        "likelihood": 2,
+        "notes": "Check injector operation and connections."
+      },
+      {
+        "name": "Low compression or air leak",
+        "likelihood": 1,
+        "notes": "Check if ignition and fuel tests do not explain the fault."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check cylinder 2 misfire counts and freeze-frame data",
+      "Inspect or test the cylinder 2 plug, coil, and connections",
+      "If needed, test injector operation and compression"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before correcting the misfire",
+      "Engine parts before confirming compression is low"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0303",
+    "title": "Cylinder 3 misfire detected",
+    "meaning": "Cylinder 3 is not burning its fuel and air mixture consistently. You may notice a rough idle, vibration, or reduced power.",
+    "system": "Ignition and misfire",
+    "severity": "red",
+    "safeToDriveNote": "If the check-engine light is flashing or the engine runs roughly, stop driving when safe and get prompt help; a misfire can damage emissions components.",
+    "causes": [
+      {
+        "name": "Spark plug worn or fouled on cylinder 3",
+        "likelihood": 4,
+        "notes": "Often checked first."
+      },
+      {
+        "name": "Ignition coil or boot fault on cylinder 3",
+        "likelihood": 3,
+        "notes": "A swap test can help confirm whether the fault follows the coil."
+      },
+      {
+        "name": "Injector or wiring issue",
+        "likelihood": 2,
+        "notes": "Check injector operation and connections."
+      },
+      {
+        "name": "Low compression or air leak",
+        "likelihood": 1,
+        "notes": "Check if ignition and fuel tests do not explain the fault."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check cylinder 3 misfire counts and freeze-frame data",
+      "Inspect or test the cylinder 3 plug, coil, and connections",
+      "If needed, test injector operation and compression"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before correcting the misfire",
+      "Engine parts before confirming compression is low"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0304",
+    "title": "Cylinder 4 misfire detected",
+    "meaning": "Cylinder 4 is not burning its fuel and air mixture consistently. You may notice a rough idle, vibration, or reduced power.",
+    "system": "Ignition and misfire",
+    "severity": "red",
+    "safeToDriveNote": "If the check-engine light is flashing or the engine runs roughly, stop driving when safe and get prompt help; a misfire can damage emissions components.",
+    "causes": [
+      {
+        "name": "Spark plug worn or fouled on cylinder 4",
+        "likelihood": 4,
+        "notes": "Often checked first."
+      },
+      {
+        "name": "Ignition coil or boot fault on cylinder 4",
+        "likelihood": 3,
+        "notes": "A swap test can help confirm whether the fault follows the coil."
+      },
+      {
+        "name": "Injector or wiring issue",
+        "likelihood": 2,
+        "notes": "Check injector operation and connections."
+      },
+      {
+        "name": "Low compression or air leak",
+        "likelihood": 1,
+        "notes": "Check if ignition and fuel tests do not explain the fault."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check cylinder 4 misfire counts and freeze-frame data",
+      "Inspect or test the cylinder 4 plug, coil, and connections",
+      "If needed, test injector operation and compression"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before correcting the misfire",
+      "Engine parts before confirming compression is low"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0171",
+    "title": "System too lean (Bank 1)",
+    "meaning": "The engine computer is detecting too much air, or too little fuel, on bank 1. This can affect idle, power, or fuel economy.",
+    "system": "Fuel and air metering",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive a short distance if the engine runs normally, but have it checked soon; stop if it stalls, overheats, or runs very roughly.",
+    "causes": [
+      {
+        "name": "Unmetered air from a vacuum or intake leak",
+        "likelihood": 4,
+        "notes": "Inspect intake hoses and connections."
+      },
+      {
+        "name": "Dirty or under-reading mass airflow sensor",
+        "likelihood": 3,
+        "notes": "Verify readings and wiring before replacement."
+      },
+      {
+        "name": "Low fuel pressure or restricted delivery",
+        "likelihood": 2,
+        "notes": "Confirm with a pressure test."
+      },
+      {
+        "name": "Exhaust leak ahead of an oxygen sensor",
+        "likelihood": 1,
+        "notes": "Can skew oxygen readings."
+      }
+    ],
+    "mechanicChecklist": [
+      "Review fuel trims at idle and raised rpm",
+      "Smoke-test the intake for leaks",
+      "Verify MAF readings and fuel pressure"
+    ],
+    "dontReplaceYet": [
+      "Oxygen sensors before checking for air leaks and fuel pressure",
+      "MAF sensor without testing its readings and wiring"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0172",
+    "title": "System too rich (Bank 1)",
+    "meaning": "The engine computer is detecting too much fuel, or too little air, on bank 1. This may increase fuel use or cause rough running.",
+    "system": "Fuel and air metering",
+    "severity": "yellow",
+    "safeToDriveNote": "A short trip is typically reasonable if it runs normally, but arrange a check soon; stop if it smells strongly of fuel, stalls, or runs roughly.",
+    "causes": [
+      {
+        "name": "Fuel injector leaking or delivering too much fuel",
+        "likelihood": 3,
+        "notes": "Check fuel pressure and injector balance."
+      },
+      {
+        "name": "MAF sensor reading too high",
+        "likelihood": 3,
+        "notes": "Compare sensor readings with specifications."
+      },
+      {
+        "name": "High fuel pressure",
+        "likelihood": 2,
+        "notes": "Verify pressure and regulator operation."
+      },
+      {
+        "name": "Purge valve stuck open",
+        "likelihood": 1,
+        "notes": "Can change mixture, especially after refueling."
+      }
+    ],
+    "mechanicChecklist": [
+      "Review fuel trims and freeze-frame data",
+      "Check fuel pressure and injector leakage",
+      "Verify MAF readings and purge valve operation"
+    ],
+    "dontReplaceYet": [
+      "Oxygen sensors without checking mixture and fuel pressure",
+      "Fuel injectors as a set without test results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0420",
+    "title": "Catalyst system efficiency below threshold (Bank 1)",
+    "meaning": "The exhaust readings suggest the catalytic converter may not be cleaning exhaust as expected. The code alone does not prove the converter has failed.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive if the vehicle runs normally, but have it checked; stop if the warning flashes, power drops, or the vehicle overheats.",
+    "causes": [
+      {
+        "name": "Exhaust leak near the converter or sensors",
+        "likelihood": 3,
+        "notes": "Check leaks before judging sensor or converter performance."
+      },
+      {
+        "name": "Aging or damaged catalytic converter",
+        "likelihood": 3,
+        "notes": "Confirm after addressing engine faults."
+      },
+      {
+        "name": "Faulty oxygen sensor or wiring",
+        "likelihood": 2,
+        "notes": "Compare sensor signals and inspect wiring."
+      },
+      {
+        "name": "Unresolved misfire or rich/lean condition",
+        "likelihood": 2,
+        "notes": "Can damage or confuse catalyst monitoring."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for exhaust leaks and other engine codes",
+      "Review upstream and downstream oxygen sensor data",
+      "Confirm converter efficiency after fixing mixture or misfire issues"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before ruling out leaks, sensor faults, and engine-running issues",
+      "Oxygen sensors without checking live data"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0430",
+    "title": "Catalyst system efficiency below threshold (Bank 2)",
+    "meaning": "The exhaust readings suggest the catalytic converter on bank 2 may not be cleaning exhaust as expected. The code alone does not prove the converter has failed.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive if the vehicle runs normally, but have it checked; stop if the warning flashes, power drops, or the vehicle overheats.",
+    "causes": [
+      {
+        "name": "Exhaust leak near the converter or sensors",
+        "likelihood": 3,
+        "notes": "Check leaks before judging sensor or converter performance."
+      },
+      {
+        "name": "Aging or damaged catalytic converter",
+        "likelihood": 3,
+        "notes": "Confirm after addressing engine faults."
+      },
+      {
+        "name": "Faulty oxygen sensor or wiring",
+        "likelihood": 2,
+        "notes": "Compare sensor signals and inspect wiring."
+      },
+      {
+        "name": "Unresolved misfire or rich/lean condition",
+        "likelihood": 2,
+        "notes": "Can damage or confuse catalyst monitoring."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for exhaust leaks and other engine codes",
+      "Review bank 2 oxygen sensor data",
+      "Confirm converter efficiency after fixing mixture or misfire issues"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before ruling out leaks, sensor faults, and engine-running issues",
+      "Oxygen sensors without checking live data"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0442",
+    "title": "Evaporative emission system leak detected (small leak)",
+    "meaning": "The system that keeps fuel vapors contained has detected a small leak. A loose fuel cap is one simple possibility, but not the only one.",
+    "system": "Evaporative emissions",
+    "severity": "green",
+    "safeToDriveNote": "The vehicle is typically drivable if it runs normally; check the fuel cap and schedule diagnosis if the light stays on. Fuel vapor odor needs prompt attention.",
+    "causes": [
+      {
+        "name": "Fuel cap loose, damaged, or seal worn",
+        "likelihood": 4,
+        "notes": "Refit until secure; inspect its seal."
+      },
+      {
+        "name": "Small leak in vapor hose or connection",
+        "likelihood": 3,
+        "notes": "A smoke test can locate small leaks."
+      },
+      {
+        "name": "EVAP valve or canister seal issue",
+        "likelihood": 1,
+        "notes": "Test before replacing components."
+      }
+    ],
+    "mechanicChecklist": [
+      "Refit and inspect the fuel cap",
+      "Check EVAP hoses and connections",
+      "Smoke-test the system if the code returns"
+    ],
+    "dontReplaceYet": [
+      "EVAP canister before locating the leak",
+      "Purge or vent valves without test results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0455",
+    "title": "Evaporative emission system large leak detected",
+    "meaning": "The fuel-vapor containment system detected a large leak or could not seal during its test. A loose or missing fuel cap is a common first check.",
+    "system": "Evaporative emissions",
+    "severity": "green",
+    "safeToDriveNote": "It is typically drivable if there is no fuel smell and the engine runs normally; refit the cap and have it checked if the light returns. Avoid driving with a strong fuel odor.",
+    "causes": [
+      {
+        "name": "Fuel cap loose, missing, or damaged",
+        "likelihood": 4,
+        "notes": "Check cap and filler-neck seal."
+      },
+      {
+        "name": "Disconnected or split EVAP hose",
+        "likelihood": 3,
+        "notes": "Inspect accessible hoses and connections."
+      },
+      {
+        "name": "Purge or vent valve not sealing",
+        "likelihood": 2,
+        "notes": "Verify operation before replacement."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check fuel cap and filler neck",
+      "Inspect EVAP hoses and electrical connections",
+      "Run a smoke test and valve test"
+    ],
+    "dontReplaceYet": [
+      "EVAP canister before finding the leak",
+      "Fuel tank before checking cap, hoses, and valves"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0456",
+    "title": "Evaporative emission system very small leak detected",
+    "meaning": "The vapor-control system detected a very small leak. The cap seal and tiny hose or valve leaks are common places to begin checking.",
+    "system": "Evaporative emissions",
+    "severity": "green",
+    "safeToDriveNote": "It is typically drivable if there is no fuel odor and the vehicle runs normally; check the cap and arrange diagnosis if the warning persists.",
+    "causes": [
+      {
+        "name": "Fuel cap seal or filler-neck sealing surface",
+        "likelihood": 4,
+        "notes": "Inspect and refit the cap."
+      },
+      {
+        "name": "Small EVAP hose or seal leak",
+        "likelihood": 3,
+        "notes": "A smoke test may be needed."
+      },
+      {
+        "name": "Purge or vent valve not sealing fully",
+        "likelihood": 2,
+        "notes": "Test valve sealing."
+      }
+    ],
+    "mechanicChecklist": [
+      "Inspect and refit the fuel cap",
+      "Inspect filler neck and EVAP connections",
+      "Use a low-pressure smoke test to find a small leak"
+    ],
+    "dontReplaceYet": [
+      "EVAP canister before confirming leak location",
+      "Fuel tank or valves without testing"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0128",
+    "title": "Coolant thermostat temperature below regulating temperature",
+    "meaning": "The engine is taking longer than expected to reach its normal operating temperature. A thermostat that stays open is one possible cause.",
+    "system": "Engine temperature",
+    "severity": "yellow",
+    "safeToDriveNote": "A short drive is typically possible if the temperature gauge stays normal, but have it checked; stop if the engine overheats or coolant is low.",
+    "causes": [
+      {
+        "name": "Thermostat stuck open",
+        "likelihood": 4,
+        "notes": "Compare warm-up behavior with specification."
+      },
+      {
+        "name": "Coolant temperature sensor or wiring issue",
+        "likelihood": 2,
+        "notes": "Check readings against actual temperature."
+      },
+      {
+        "name": "Low coolant or cooling-system issue",
+        "likelihood": 1,
+        "notes": "Check level only when safe and cool."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check coolant level when the engine is cool",
+      "Compare coolant temperature readings during warm-up",
+      "Test thermostat operation and sensor circuit"
+    ],
+    "dontReplaceYet": [
+      "Coolant temperature sensor before confirming its readings",
+      "Water pump unless there are supporting symptoms or test results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0113",
+    "title": "Intake air temperature sensor circuit high input",
+    "meaning": "The computer is seeing an unusually high voltage from the intake-air temperature sensor circuit, often interpreted as very cold air. This may affect fueling.",
+    "system": "Fuel and air metering",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive gently if the engine runs normally, but have the sensor circuit checked soon; stop if it stalls or runs very roughly.",
+    "causes": [
+      {
+        "name": "Sensor connector unplugged or poor connection",
+        "likelihood": 4,
+        "notes": "Inspect connector and terminals."
+      },
+      {
+        "name": "Open circuit or damaged wiring",
+        "likelihood": 3,
+        "notes": "Check circuit continuity and reference voltage."
+      },
+      {
+        "name": "Failed intake-air temperature sensor",
+        "likelihood": 2,
+        "notes": "Compare scan reading to ambient temperature."
+      }
+    ],
+    "mechanicChecklist": [
+      "Compare intake-air temperature reading with ambient temperature",
+      "Inspect connector and wiring",
+      "Test sensor resistance and circuit before replacing"
+    ],
+    "dontReplaceYet": [
+      "MAF sensor unless its own tests indicate a fault",
+      "Engine computer before checking wiring and sensor"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0335",
+    "title": "Crankshaft position sensor circuit malfunction",
+    "meaning": "The computer is not receiving the expected signal from the crankshaft position circuit. Starting or engine operation may be affected.",
+    "system": "Ignition and engine timing",
+    "severity": "red",
+    "safeToDriveNote": "The engine may stall or fail to restart; avoid a trip if starting or running is unreliable and arrange prompt diagnosis.",
+    "causes": [
+      {
+        "name": "Crankshaft sensor or connector fault",
+        "likelihood": 3,
+        "notes": "Inspect connector and sensor signal."
+      },
+      {
+        "name": "Damaged wiring or poor electrical connection",
+        "likelihood": 3,
+        "notes": "Check harness near heat or moving parts."
+      },
+      {
+        "name": "Trigger wheel or mechanical timing issue",
+        "likelihood": 1,
+        "notes": "Check if wiring and sensor signal are sound."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check stored and pending codes and freeze-frame data",
+      "Inspect sensor connector and harness",
+      "Scope or test crankshaft signal during cranking"
+    ],
+    "dontReplaceYet": [
+      "Crankshaft sensor before confirming power, ground, and signal",
+      "Engine computer before checking wiring and trigger signal"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0340",
+    "title": "Camshaft position sensor circuit malfunction",
+    "meaning": "The computer is not receiving the expected signal from a camshaft position circuit. Starting, timing, or engine performance can be affected.",
+    "system": "Ignition and engine timing",
+    "severity": "yellow",
+    "safeToDriveNote": "If it starts and runs normally, a short trip is typically possible, but have it checked soon; avoid driving if it stalls or loses power.",
+    "causes": [
+      {
+        "name": "Camshaft sensor or connector fault",
+        "likelihood": 3,
+        "notes": "Check sensor signal and connection."
+      },
+      {
+        "name": "Damaged wiring or poor ground",
+        "likelihood": 3,
+        "notes": "Inspect circuit under load."
+      },
+      {
+        "name": "Timing or reluctor target issue",
+        "likelihood": 1,
+        "notes": "Check if sensor and wiring tests pass."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check related crankshaft or timing codes",
+      "Inspect sensor connector, wiring, and ground",
+      "Verify camshaft signal and mechanical timing as needed"
+    ],
+    "dontReplaceYet": [
+      "Camshaft sensor before confirming circuit and signal",
+      "Timing components without supporting diagnostic results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0101",
+    "title": "Mass or volume air flow sensor range/performance",
+    "meaning": "The measured airflow does not match what the computer expects. An intake leak or airflow sensor issue may affect engine performance.",
+    "system": "Fuel and air metering",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive gently if the engine runs normally, but have it checked soon; stop if it stalls or loses significant power.",
+    "causes": [
+      {
+        "name": "Air leak after the airflow sensor",
+        "likelihood": 4,
+        "notes": "Inspect intake ducting and clamps."
+      },
+      {
+        "name": "Dirty or inaccurate MAF sensor",
+        "likelihood": 3,
+        "notes": "Check readings and contamination using approved methods."
+      },
+      {
+        "name": "Blocked air filter or wiring fault",
+        "likelihood": 2,
+        "notes": "Inspect filter and sensor circuit."
+      }
+    ],
+    "mechanicChecklist": [
+      "Inspect intake ducting for leaks or damage",
+      "Check air filter and MAF wiring",
+      "Compare live airflow data with engine load"
+    ],
+    "dontReplaceYet": [
+      "MAF sensor before checking for leaks and wiring",
+      "Oxygen sensors without fuel-trim evidence"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0102",
+    "title": "Mass or volume air flow sensor circuit low input",
+    "meaning": "The airflow sensor circuit is reporting a signal lower than expected. This can affect the engine's fuel calculation.",
+    "system": "Fuel and air metering",
+    "severity": "yellow",
+    "safeToDriveNote": "A short drive is typically possible if the engine runs smoothly, but arrange a check soon; stop if it stalls or loses power.",
+    "causes": [
+      {
+        "name": "Loose connector or wiring fault",
+        "likelihood": 4,
+        "notes": "Check terminals, power, and ground."
+      },
+      {
+        "name": "Airflow sensor contamination or failure",
+        "likelihood": 3,
+        "notes": "Verify signal and air path."
+      },
+      {
+        "name": "Intake restriction or air leak",
+        "likelihood": 1,
+        "notes": "Inspect filter and ducting."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check MAF connector, power, ground, and wiring",
+      "Inspect air filter and intake ducting",
+      "Test airflow signal before sensor replacement"
+    ],
+    "dontReplaceYet": [
+      "MAF sensor without electrical and live-data checks",
+      "Engine computer before checking circuit wiring"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0401",
+    "title": "Exhaust gas recirculation flow insufficient",
+    "meaning": "The exhaust-gas recirculation system is not flowing as much as the computer expects. This may affect emissions or cause hesitation.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically drivable if the engine runs normally, but have it checked; stop if it stalls, overheats, or loses substantial power.",
+    "causes": [
+      {
+        "name": "Restricted EGR passage",
+        "likelihood": 3,
+        "notes": "Carbon buildup may restrict flow."
+      },
+      {
+        "name": "EGR valve not opening fully",
+        "likelihood": 3,
+        "notes": "Test commanded operation and position feedback."
+      },
+      {
+        "name": "Control hose, wiring, or sensor issue",
+        "likelihood": 2,
+        "notes": "Check the system design for the vehicle."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check related codes and EGR command data",
+      "Test EGR valve operation and feedback",
+      "Inspect passages for restriction and check control circuit"
+    ],
+    "dontReplaceYet": [
+      "EGR valve before checking passages and control circuit",
+      "Intake manifold without evidence of a restriction"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0505",
+    "title": "Idle air control system malfunction",
+    "meaning": "The engine computer cannot control idle speed as expected. The engine may idle too high, too low, or unevenly.",
+    "system": "Vehicle speed and idle controls",
+    "severity": "yellow",
+    "safeToDriveNote": "If the engine stays running and responds normally, a short trip is typically possible; avoid driving if it stalls in traffic or idle is unpredictable.",
+    "causes": [
+      {
+        "name": "Vacuum or intake leak",
+        "likelihood": 3,
+        "notes": "Check for unmetered air."
+      },
+      {
+        "name": "Dirty or sticking idle control passage or valve",
+        "likelihood": 3,
+        "notes": "Inspect according to the vehicle procedure."
+      },
+      {
+        "name": "Wiring or throttle-body issue",
+        "likelihood": 2,
+        "notes": "Check circuit and throttle operation."
+      }
+    ],
+    "mechanicChecklist": [
+      "Record idle speed and symptoms cold and warm",
+      "Check intake for vacuum leaks",
+      "Test idle control circuit and inspect throttle/air passages"
+    ],
+    "dontReplaceYet": [
+      "Idle control valve before checking leaks and wiring",
+      "Throttle body before confirming the fault source"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0700",
+    "title": "Transmission control system request",
+    "meaning": "The engine computer has been told that the transmission controller has stored a fault. This code is a notice; transmission-specific codes are needed to identify the issue.",
+    "system": "Transmission controls",
+    "severity": "yellow",
+    "safeToDriveNote": "Driving behavior depends on the underlying transmission fault. If shifting is harsh, slipping, or a warning is present, avoid driving and arrange diagnosis promptly.",
+    "causes": [
+      {
+        "name": "Transmission controller has a separate stored code",
+        "likelihood": 5,
+        "notes": "Read codes from the transmission module with a capable scanner."
+      }
+    ],
+    "mechanicChecklist": [
+      "Scan the transmission control module for its own codes",
+      "Record shift symptoms and warning messages",
+      "Check fluid condition and level using the vehicle procedure"
+    ],
+    "dontReplaceYet": [
+      "Transmission or controller before retrieving transmission-specific codes",
+      "Solenoids before confirming the related fault and test results"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0133",
+    "title": "Oxygen sensor slow response (Bank 1 Sensor 1)",
+    "meaning": "The upstream oxygen sensor is responding more slowly than expected. The sensor may be aging, but mixture problems or wiring can also affect the signal.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically drivable if the engine runs normally, but arrange diagnosis; stop if the warning flashes, the engine runs roughly, or power drops.",
+    "causes": [
+      {
+        "name": "Aging upstream oxygen sensor",
+        "likelihood": 3,
+        "notes": "Confirm response with scan data."
+      },
+      {
+        "name": "Exhaust leak or wiring problem",
+        "likelihood": 2,
+        "notes": "Inspect before replacing the sensor."
+      },
+      {
+        "name": "Mixture problem affecting sensor response",
+        "likelihood": 2,
+        "notes": "Check fuel trims and related codes."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for exhaust leaks and related mixture codes",
+      "Review oxygen sensor response data",
+      "Inspect wiring and connector before sensor replacement"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter based on this code alone",
+      "Oxygen sensor without confirming slow response"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0135",
+    "title": "Oxygen sensor heater circuit malfunction (Bank 1 Sensor 1)",
+    "meaning": "The heater circuit for the upstream oxygen sensor has a fault. The heater helps the sensor reach operating temperature sooner.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically possible to drive if the vehicle runs normally, but have the circuit checked to avoid prolonged emissions issues.",
+    "causes": [
+      {
+        "name": "Blown fuse or wiring/connector fault",
+        "likelihood": 3,
+        "notes": "Check power, ground, and fuse."
+      },
+      {
+        "name": "Oxygen sensor heater element failure",
+        "likelihood": 3,
+        "notes": "Test resistance to specification."
+      },
+      {
+        "name": "Control circuit fault",
+        "likelihood": 1,
+        "notes": "Verify control at the module."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check heater fuse and power supply",
+      "Inspect wiring and connector",
+      "Test heater element and control circuit"
+    ],
+    "dontReplaceYet": [
+      "Oxygen sensor before checking fuse, power, and wiring",
+      "Engine computer before circuit tests"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0141",
+    "title": "Oxygen sensor heater circuit malfunction (Bank 1 Sensor 2)",
+    "meaning": "The heater circuit for the downstream oxygen sensor has a fault. This sensor is generally used to monitor emissions-system performance.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "It is typically drivable if the engine runs normally, but have the electrical fault checked and address any other codes first.",
+    "causes": [
+      {
+        "name": "Wiring, connector, or fuse issue",
+        "likelihood": 3,
+        "notes": "Inspect for heat or road damage."
+      },
+      {
+        "name": "Sensor heater element failure",
+        "likelihood": 3,
+        "notes": "Test resistance and power supply."
+      },
+      {
+        "name": "Control circuit problem",
+        "likelihood": 1,
+        "notes": "Verify module-side operation."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for exhaust and heater-related codes",
+      "Inspect wiring near the exhaust",
+      "Test fuse, power, ground, and heater resistance"
+    ],
+    "dontReplaceYet": [
+      "Catalytic converter before addressing sensor heater fault",
+      "Sensor before checking wiring and fuse"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0440",
+    "title": "Evaporative emission control system malfunction",
+    "meaning": "The fuel-vapor system did not complete its leak check as expected. More specific tests are needed to find whether a valve, leak, or circuit is involved.",
+    "system": "Evaporative emissions",
+    "severity": "green",
+    "safeToDriveNote": "It is typically drivable if there is no fuel odor and the engine runs normally; have it checked if the light remains on.",
+    "causes": [
+      {
+        "name": "Fuel cap or sealing issue",
+        "likelihood": 3,
+        "notes": "Inspect and refit cap."
+      },
+      {
+        "name": "EVAP hose or valve leak/fault",
+        "likelihood": 3,
+        "notes": "Test valves and hoses."
+      },
+      {
+        "name": "Electrical circuit issue",
+        "likelihood": 1,
+        "notes": "Check power, ground, and wiring."
+      }
+    ],
+    "mechanicChecklist": [
+      "Inspect fuel cap and filler neck",
+      "Check EVAP hoses, valves, and wiring",
+      "Run system leak and function tests"
+    ],
+    "dontReplaceYet": [
+      "EVAP canister before locating the fault",
+      "Purge valve without a functional test"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0446",
+    "title": "Evaporative emission vent control circuit malfunction",
+    "meaning": "The vent control circuit for the fuel-vapor system is not operating as expected. A valve, wiring, or blocked vent may be involved.",
+    "system": "Evaporative emissions",
+    "severity": "green",
+    "safeToDriveNote": "It is typically drivable if there is no fuel odor and normal engine operation; arrange a check, especially if refueling is difficult.",
+    "causes": [
+      {
+        "name": "Vent valve or filter restricted",
+        "likelihood": 3,
+        "notes": "Check for dirt, water, or blockage."
+      },
+      {
+        "name": "Vent valve wiring or connector fault",
+        "likelihood": 3,
+        "notes": "Test circuit and connector."
+      },
+      {
+        "name": "Control or system fault",
+        "likelihood": 1,
+        "notes": "Follow vehicle-specific test procedure."
+      }
+    ],
+    "mechanicChecklist": [
+      "Inspect vent valve, filter, and hoses",
+      "Check wiring and connector at the valve",
+      "Test valve command and circuit response"
+    ],
+    "dontReplaceYet": [
+      "EVAP canister before checking vent path",
+      "Vent valve without circuit and blockage tests"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0131",
+    "title": "Oxygen sensor circuit low voltage (Bank 1 Sensor 1)",
+    "meaning": "The upstream oxygen-sensor signal is lower than expected. This can reflect a lean mixture, a sensor issue, or wiring trouble.",
+    "system": "Emissions controls",
+    "severity": "yellow",
+    "safeToDriveNote": "If the engine runs normally, a short trip is typically possible, but arrange diagnosis; stop if it stalls or runs very roughly.",
+    "causes": [
+      {
+        "name": "Lean mixture or intake leak",
+        "likelihood": 3,
+        "notes": "Review fuel trims and check for air leaks."
+      },
+      {
+        "name": "Sensor wiring or connector fault",
+        "likelihood": 3,
+        "notes": "Inspect signal circuit and ground."
+      },
+      {
+        "name": "Oxygen sensor fault",
+        "likelihood": 2,
+        "notes": "Confirm response after mixture and wiring checks."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check fuel trims and intake for leaks",
+      "Inspect sensor wiring and exhaust leaks",
+      "Test sensor signal under operating conditions"
+    ],
+    "dontReplaceYet": [
+      "Oxygen sensor before checking for lean conditions and wiring",
+      "Catalytic converter based on this code alone"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0118",
+    "title": "Engine coolant temperature sensor circuit high input",
+    "meaning": "The coolant-temperature circuit is reporting a higher voltage than expected, often interpreted as an unusually cold reading. Verify the sensor and circuit.",
+    "system": "Engine temperature",
+    "severity": "yellow",
+    "safeToDriveNote": "If the temperature gauge behaves normally and the engine runs well, a short trip is typically possible; monitor temperature and stop if it overheats.",
+    "causes": [
+      {
+        "name": "Loose connector or open wiring",
+        "likelihood": 4,
+        "notes": "Inspect terminals and harness."
+      },
+      {
+        "name": "Coolant temperature sensor fault",
+        "likelihood": 2,
+        "notes": "Compare scan reading to actual temperature."
+      },
+      {
+        "name": "Low coolant or circuit issue",
+        "likelihood": 1,
+        "notes": "Check coolant only when cool."
+      }
+    ],
+    "mechanicChecklist": [
+      "Compare scan temperature with ambient before start",
+      "Inspect coolant level when safe and inspect connector",
+      "Test sensor resistance and wiring continuity"
+    ],
+    "dontReplaceYet": [
+      "Thermostat before verifying temperature sensor data",
+      "Engine computer before circuit checks"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0122",
+    "title": "Throttle position sensor circuit low input",
+    "meaning": "The throttle-position circuit is reporting a lower signal than expected. The vehicle may have reduced power or an inconsistent response.",
+    "system": "Vehicle speed and idle controls",
+    "severity": "yellow",
+    "safeToDriveNote": "If throttle response is unpredictable or power is limited, avoid driving and arrange prompt diagnosis; otherwise have it checked soon.",
+    "causes": [
+      {
+        "name": "Throttle sensor or connector fault",
+        "likelihood": 3,
+        "notes": "Inspect signal and connector."
+      },
+      {
+        "name": "Wiring short or poor reference voltage",
+        "likelihood": 3,
+        "notes": "Check power, ground, and signal."
+      },
+      {
+        "name": "Throttle body issue",
+        "likelihood": 1,
+        "notes": "Test only after circuit checks."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check for reduced-power warnings and related codes",
+      "Inspect throttle connector and wiring",
+      "Compare throttle position data through pedal movement"
+    ],
+    "dontReplaceYet": [
+      "Throttle body before checking sensor signal and wiring",
+      "Engine computer before circuit tests"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  },
+  {
+    "code": "P0500",
+    "title": "Vehicle speed sensor malfunction",
+    "meaning": "The computer is not receiving a reliable vehicle-speed signal. The speedometer, shifting, or stability systems may be affected.",
+    "system": "Vehicle speed and idle controls",
+    "severity": "yellow",
+    "safeToDriveNote": "If the speedometer or shifting is unreliable, avoid driving in traffic and have it checked promptly; vehicle behavior varies by model.",
+    "causes": [
+      {
+        "name": "Speed sensor or connector fault",
+        "likelihood": 3,
+        "notes": "Check signal at sensor and module."
+      },
+      {
+        "name": "Damaged wiring or tone ring",
+        "likelihood": 2,
+        "notes": "Inspect harness and reluctor."
+      },
+      {
+        "name": "Related ABS or transmission signal fault",
+        "likelihood": 2,
+        "notes": "Scan related modules if available."
+      }
+    ],
+    "mechanicChecklist": [
+      "Check speedometer and related warning lights",
+      "Scan ABS and transmission modules for related codes",
+      "Inspect sensor wiring and verify speed signal"
+    ],
+    "dontReplaceYet": [
+      "Transmission before checking speed sensor signal and wiring",
+      "Speed sensor without verifying the source and circuit"
+    ],
+    "carSpecific": [],
+    "reviewed": false
+  }
+]
