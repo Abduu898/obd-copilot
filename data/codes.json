@@ -46,27 +46,43 @@
     "meaning": "Cylinder 1 is not burning its fuel and air mixture consistently. You may notice a rough idle, vibration, or reduced power.",
     "system": "Ignition and misfire",
     "severity": "red",
-    "safeToDriveNote": "If the check-engine light is flashing or the engine runs roughly, stop driving when safe and get prompt help; a misfire can damage emissions components.",
+    "safeToDriveNote": "Flashing check-engine light or heavy shaking: stop driving as soon as it's safe. Unburned fuel can overheat and ruin the catalytic converter. Steady light with a mild rough idle: short, gentle drives to get it checked are generally okay. Avoid hard acceleration, towing, and long trips. Don't clear the code and keep driving.",
     "causes": [
       {
-        "name": "Spark plug worn or fouled on cylinder 1",
+        "name": "Worn or fouled spark plug",
         "likelihood": 4,
-        "notes": "Often checked first."
+        "notes": "Most common cause and cheapest to rule out.",
+        "cost": "$"
       },
       {
-        "name": "Ignition coil or boot fault on cylinder 1",
+        "name": "Ignition coil or boot",
         "likelihood": 3,
-        "notes": "A swap test can help confirm whether the fault follows the coil."
+        "notes": "A swap test can help confirm whether the fault follows the coil.",
+        "cost": "$$"
       },
       {
-        "name": "Injector or wiring issue",
+        "name": "Injector fault or carbon deposits, especially on direct-injection engines",
         "likelihood": 2,
-        "notes": "Check injector operation and connections."
+        "notes": "Contaminated fuel usually causes misfires on several cylinders at once.",
+        "cost": "$$"
       },
       {
-        "name": "Low compression or air leak",
+        "name": "Wiring or connector problem",
+        "likelihood": 2,
+        "notes": "Inspect connections before replacing parts.",
+        "cost": "$"
+      },
+      {
+        "name": "Intake or vacuum leak near that cylinder",
         "likelihood": 1,
-        "notes": "Check if ignition and fuel tests do not explain the fault."
+        "notes": "Check after basic ignition and fuel tests; relative cost can range from low to medium.",
+        "cost": "$$"
+      },
+      {
+        "name": "Low compression from valves, rings, or head gasket",
+        "likelihood": 1,
+        "notes": "Test compression before considering engine parts.",
+        "cost": "$$$"
       }
     ],
     "mechanicChecklist": [
@@ -75,8 +91,26 @@
       "If needed, test injector operation and compression"
     ],
     "dontReplaceYet": [
-      "Catalytic converter before correcting the misfire",
-      "Engine parts before confirming compression is low"
+      "All coils or injectors before a swap test",
+      "The catalytic converter before the misfire is fixed",
+      "Engine parts before compression is tested",
+      "Clearing the code and ignoring it is not a fix"
+    ],
+    "quickCheck": {
+      "title": "Coil swap test",
+      "steps": [
+        "Swap the cylinder 1 coil with the cylinder 2 coil.",
+        "Clear the code, drive normally, and re-read codes.",
+        "If the code changes to P0302, the coil is the problem.",
+        "If it stays P0301, check the spark plug and injector next."
+      ],
+      "caution": "Coil access varies by engine, and cylinder 1's location varies, so check the service manual."
+    },
+    "driverQuestions": [
+      "Was the check-engine light flashing?",
+      "Does it happen on cold start, under load, or both?",
+      "Any recent plug, coil, or fuel changes?",
+      "Any other codes?"
     ],
     "carSpecific": [],
     "reviewed": false
